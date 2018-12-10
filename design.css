@@ -152,37 +152,6 @@ body
 
 }
 
-.foncentraleblock
-{
-	width:436px;
-	height:25px;
-	margin:auto;
-	margin-top:-1px;
-	z-index:2;
-	border: solid 1px purple;
-
-
-}
-
-#left-side
-{
-
-
-		display:block;
-		width:227px;
-		height:900px;
-		right:340px;
-		border:solid red 1px;
-		position:relative;
-		margin:auto;
-
-
-
-
-
-}
-
-
 #footer
 {
 
@@ -190,6 +159,8 @@ body
 	height:122px;
 	background:url('img/footer.png') bottom center no-repeat;
 	display:block;
+
+	bottom:0;
 
 
 }
@@ -199,7 +170,25 @@ body
 	font-family:verdana;
 	text-align:center;
 	color:#626262;
-	margin-bottom: -109px;
 
 
+
+}
+h1{
+	color:white;
+	text-align: center;
+	font-family: verdana;
+}
+h2{
+	color:white;
+	text-align: center;
+	font-family: verdana;
+
+}
+p{
+	color:white;
+	font-family: verdana;
+}
+a{
+	color:#ffa500;
 }
