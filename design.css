@@ -1,0 +1,205 @@
+
+body
+{
+
+		background:url('img/fond.jpg') center repeat-y black;
+		padding:0px;
+		margin:0px;
+		z-index:1;
+}
+
+
+#header
+{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	display:block;
+	margin:auto;
+}
+
+.menutop
+{
+	position:relative;
+
+	width:927px;
+	height:47px;
+	border:red solid 0px;
+	background:url("img/menutopdebut.png") top left no-repeat,url("img/menutopdebut.png") top right no-repeat,url("img/menutopmilieu.png") repeat-x ;
+	margin:auto;
+	z-index:1;
+}
+.mentutopalpha
+{
+
+	margin-top: 12px;
+}
+.namemenutop
+{
+	display:inline-block;
+	text-align: center;
+	width:870px;
+	height:25px;
+	border:yellow 0px solid;
+	margin-top:-40px;
+}
+
+.accueil
+{
+	display:inline-block;
+	width:61px;
+	height:16px;
+	background-image: url(img/accueil.png);
+	background-repeat: no-repeat;
+	z-index: 20;
+}
+.accueil:hover
+{
+	display: inline-block;
+	width:61px;
+	height:16px;
+	background-image: url(img/accueilhover.png);
+	background-repeat: no-repeat;
+}
+.news{
+	display: inline-block;
+	width:43px;
+	height:16px;
+	background-image: url(img/news.png);
+	background-repeat: no-repeat;
+}
+.news:hover
+{
+	display: inline-block;
+	width:43px;
+	height:16px;
+	background-image: url(img/newshover.png);
+	background-repeat: no-repeat;
+}
+
+.forum
+{
+	display: inline-block;
+	width:52px;
+	height:16px;
+	background-image:url(img/forum.png);
+	background-repeat: no-repeat;
+}
+.forum:hover
+{
+	display: inline-block;
+	width:52px;
+	height:16px;
+	background-image:url(img/forumhover.png);
+	background-repeat: no-repeat;
+}
+
+.gallerie
+{
+	display: inline-block;
+	width:65px;
+	height: 16px;
+	background-image:url(img/gallerie.png);
+	background-repeat:no-repeat;
+}
+.gallerie:hover
+{
+	display: inline-block;
+	width:65px;
+	height: 16px;
+	background-image:url(img/galleriehover.png);
+	background-repeat:no-repeat;
+}
+.telechargement
+{
+	display: inline-block;
+	width:127px;
+	height:16px;
+	background-image:url(img/telechargement.png);
+	background-repeat: no-repeat;
+}
+.telechargement:hover
+{
+	display: inline-block;
+	width:127px;
+	height:16px;
+	background-image:url(img/telechargementhover.png);
+	background-repeat: no-repeat;
+}
+.contact
+{
+		display: inline-block;
+		width:66px;
+		height:16px;
+		background-image:url(img/contact.png);
+		background-repeat: no-repeat;
+}
+.contact:hover
+{
+		display: inline-block;
+		width:66px;
+		height:16px;
+		background-image:url(img/contacthover.png);
+		background-repeat: no-repeat;
+
+}
+.menucentre{
+
+	display: inline-block;
+	text-align: center;
+	border:solid 0px red;
+	width:500px;
+
+}
+
+.foncentraleblock
+{
+	width:436px;
+	height:25px;
+	margin:auto;
+	margin-top:-1px;
+	z-index:2;
+	border: solid 1px purple;
+
+
+}
+
+#left-side
+{
+
+
+		display:block;
+		width:227px;
+		height:900px;
+		right:340px;
+		border:solid red 1px;
+		position:relative;
+		margin:auto;
+
+
+
+
+
+}
+
+
+#footer
+{
+
+	width:100%;
+	height:122px;
+	background:url('img/footer.png') bottom center no-repeat;
+	display:block;
+
+
+}
+
+.signature
+{
+	font-family:verdana;
+	text-align:center;
+	color:#626262;
+	margin-bottom: -109px;
+
+
+}
