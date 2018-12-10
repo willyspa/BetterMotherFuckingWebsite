@@ -6,6 +6,7 @@ body
 		padding:0px;
 		margin:0px;
 		z-index:1;
+		height:500px;
 }
 
 
@@ -151,7 +152,13 @@ body
 	width:500px;
 
 }
-
+#main{
+	position: relative;
+	min-height:100%;
+}
+.footerspace{
+	height:150px;
+}
 #footer
 {
 
@@ -159,8 +166,9 @@ body
 	height:122px;
 	background:url('img/footer.png') bottom center no-repeat;
 	display:block;
-
+	position: absolute;
 	bottom:0;
+
 
 
 }
