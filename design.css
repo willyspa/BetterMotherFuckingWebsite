@@ -18,6 +18,14 @@ body
 	display:block;
 	margin:auto;
 }
+.fond{
+	text-align: center;
+}
+#bouton{
+	display:inline-block;
+
+
+}
 
 .menutop
 {
@@ -30,7 +38,7 @@ body
 	margin:auto;
 	z-index:1;
 }
-.mentutopalpha
+.menutopalpha
 {
 
 	margin-top: 12px;
